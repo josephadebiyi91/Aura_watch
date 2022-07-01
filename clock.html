@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aura_watches</title>
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="static/js/index.js"></script>
+
+  </head>
+  <body>
+    <!-- navbar started -->
+    <div class="row m-0 sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="../eProject/static/img/logo.png" alt="" srcset=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <form class="d-flex" role="search">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="product.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="technology.html">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="store.html">Store Locator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="support.html">Support</a>
+                          </li>
+                      </ul>
+                </form>
+                <!-- cart_icon -->
+              <div class="cart_icon">
+                <a href="cart.html"><i class="bi bi-cart3 px-2"></i></a>
+                <a href="sign_up.html"><i class="bi bi-people"></i></a>
+              </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- navbar end -->
+    <!-- product_landing start -->
+    <div class="row m-0 px-5" id="product_landing">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <!-- product_landing_text start -->
+        <div class="pro_text">
+          <span style="font-size: 3em; border-bottom: 3px solid #fff;">REACH OUT HERE</span><br>
+          <span style="font-size: 1.5em;">Well glow Clocks made for you.</span><br>
+          <div class="btn btn-danger disable">Latest classic Clocks</div><br>
+          <button class="btn btn-outline-danger my-2" style="color: #fff;">BUY NOW</button>
+        </div>
+        <!-- product_landing_text end -->
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <!-- product_landing_img start -->
+        <div class="clock_landing_img"></div>
+        <!-- product_landing_img end -->
+      </div>
+    </div>
+    <!-- product_landing end -->
+  <!-- trend start -->
+  <section class="row px-5 m-0" id="trend">
+    <div class="col-12">
+      <div class="top_trend_header"  data-aos="fade-up" data-aos-duration="3000">
+        <h4><b style="color: black; font-size: 1.5em; border-top: 2px solid red;border-bottom: 2px solid red;">AURA PRODUCTS</b></h4>
+        <div class="d-flex justify-content-center my-4" >
+          <a href="product.html" class="nav-link mx-2"style="background-color: #000;">Aura Watches</a>
+          <a href="clock.html" class="nav-link mx-2"style="background-color: #000;">Aura Clocks</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- trend end -->
+
+  <!-- btn_activate start -->
+  <div class="row px-5 m-0">
+    <div class="col">
+      <div class="category_btn">
+        <button class="btn btn-outline-danger">
+          <span onclick="openNav()">Categories</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- btn_activate end -->
+  
+  <!-- sidenav start -->
+  <div id="mySidenav" class="sidenav mt-5">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="search mt-4">
+      <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" placeholder="Search">
+        <label for="floatingInput px-4" style="color: #fff;">Search</label>
+      </div>
+    </div>
+    <div class="category my-4 px-4">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Categories</option>
+        <option value="1">SPORTZ</option>
+        <option value="2">PREMIER</option>
+      </select>
+    </div>
+
+    <div class="price my-4 px-4">  
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Price</option>
+      <option value="1">$55 - $100</option>
+      <option value="2">$200 - $300</option>
+      <option value="3">$500 - $700</option>
+    </select>
+    </div>
+
+    <div class="color my-4 px-4">
+      <select class="form-select" aria-label="Default select example" style=" box-shadow: none !important;">
+        <option selected>Color</option>
+        <option value="1">Red</option>
+        <option value="2">Black</option>
+        <option value="3">Gold</option>
+      </select>
+    </div>
+  </div>
+  <!-- sidenav end -->
+
+  
+  <section class="row max-auto " id="aura_watch">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img5"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Winner Waterproof Wrist Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$1500</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img6"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Stainless Steel Strap Wrist Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$2300</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img7"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Men Strap Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$9500</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img8"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Leather belt Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$12000</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+  </section>
+  <!-- sidebar end -->
+
+   <!-- aura_watches start -->
+   <section class="row max-auto " id="aura_watch">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+        <div class="clock_img1"></div>
+        <div class="aura_clock_inner_text">AURA</div>
+        <small class="" style="text-align: center; font-size: small;">Waterproof Quartz Watch</small>
+        <p class="mt-3" style="text-align: center;  color: red;">$5300</p>
+        <button type="submit" id="btn" class="btn btn-outline-danger "  data-bs-toggle="modal" data-bs-target="#staticBackdrop">READ MORE</button>
+        <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img2"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Crystalline Analog Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$10000</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img3"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Pierre Lannier watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$5300</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img4"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">QQ Superior Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$12000</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img5"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Winner Waterproof Wrist Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$1500</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img6"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Stainless Steel Strap Wrist Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$2300</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img7"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Men Strap Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$9500</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6">
+        <div class="clock_img_1 py-3" data-aos="fade-up" data-aos-duration="3000">
+          <div class="clock_img8"></div>
+          <div class="aura_clock_inner_text">AURA</div>
+          <small class="" style="text-align: center; font-size: small;">Leather belt Watch</small>
+          <p class="mt-3" style="text-align: center;  color: red;">$1200</p>
+          <button type="submit" id="btn" class="btn btn-outline-danger ">READ MORE</button>
+          <span class="position-absolute top-1 start-0 translate-middle badge pill bg-danger" style="margin: 12%; padding: 10px 18px;">
+            99+
+        </span>
+        </div>
+      </div>
+
+  </section>
+  <!-- aura_watches end -->
+
+  <!-- pagination start -->
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="product.html">1</a></li>
+      <li class="page-item"><a class="page-link" href="product.html">2</a></li>
+      <li class="page-item"><a class="page-link" href="product.html">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- pagination end-->
+
+ <!-- footer start -->
+ <footer class="row px-5 py-5 m-0" style="color: #F5F5F5;">
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <div class="name">
+      <a class="navbar-brand mx-2" href="index.html"><img src="../eProject/static/img/logo.png" alt="" srcset=""></a><br>
+      <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quae, eos esse nam ipsam fuga fugit. Perspiciatis,!</small>
+      <div class="d-flex" style="justify-content: center;">
+        <a href=""><i style="color: #fff;" class="bi bi-facebook mx-2"></i></a>
+        <a href=""><i style="color: #fff;" class="bi bi-instagram mx-2"></i></a>
+        <a href=""><i style="color: #fff;" class="bi bi-twitter mx-2"></i></a>
+        <a href=""><i style="color: #fff;" class="bi bi-discord mx-2"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <div class="footer_support" >
+      <h4 style="color: rgb(201, 5, 5)">Support</h4>
+      <small><a href="" style="color: #F5F5F5;">Help Center</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">Tweet @ Us</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">Feed Back</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">About Us</a></small><br>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <div class="links">
+      <h4 style="color: rgb(201, 5, 5)">Information</h4>
+      <small><a href=""style="color: #F5F5F5;">Top Sellers</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">New products</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">Services</a></small><br>
+      <small><a href=""style="color: #F5F5F5;">All in One</a></small><br>
+    </div>
+  </div>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12">
+    <div class="contact-us">
+      <h4><a href="contact.html" style="color: rgb(201, 5, 5)">Contact Us</a></h4>
+      <small>support@gmail.com</small><br>
+    </div>
+  </div>
+  </div>
+  <hr class="mt-5">
+  <small style="justify-content: center;"style="color: #F5F5F5;">copyright@2020 All Right Reserved.</small>
+</footer>
+<!-- footer end -->
+
+
+
+    <script
+    
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="static/js/index.js"></script>
+  </body>
+</html>
